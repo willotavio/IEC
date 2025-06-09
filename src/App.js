@@ -1,10 +1,9 @@
 import './App.css';
+import AppRoutes from './routes/AppRoutes.js';
 
 function App() {
   return (
-    <div className='home'>
-      <p>Bem-vindo(a)!</p>
-    </div>
+    <AppRoutes />
   );
 }
 
